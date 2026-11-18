@@ -28,6 +28,10 @@ Customers can explore public service pages without signing in. Signing in is req
 
 Share work and updates with services attached, giving customers a direct route from a post to the relevant service.
 
+### Local Discovery & Service-Area Polygons
+
+Add up to five ZIP or postal codes—or draw a custom service-area polygon on the map—to define your operating territory. LJOS automatically renders `LocalBusiness` (`areaServed`) structured data so Google and AI search engines understand where you work, driving direct bookings and Smart Quote requests with $0 lead fees.
+
 ### Services, quotes and booking
 
 Offer preselected services or discuss customer requirements through quotes and messaging.
@@ -76,19 +80,13 @@ Notifications are available in the dashboard, with email and SMS notifications w
 
 ## Platform fees
 
-LJOS has no monthly subscription or annual platform fee.
+LJOS has a **$0 monthly base subscription**, **$0 annual platform fee**, and **$0 lead fees**.
 
-- The LJOS platform fee is 7% of the service price on completed paid jobs.
-- Stripe processing fees are separate.
-- Customers pay a $2.50 booking fee.
+* The LJOS platform fee is **7%** of the service price on completed, paid jobs, **strictly capped at $95 per calendar month** per business.
+* Once your cumulative monthly platform fees reach **$95**, your platform fee drops to **0%** for the rest of that calendar month (*No Growth Tax*).
+* If you complete no paid jobs during a month, your LJOS platform fee is **$0**.
+* Standard Stripe card processing fees and the **$2.50** customer booking fee remain separate from the $95 monthly platform-fee cap.
 
-### Planned monthly cap: No Growth Tax
-
-LJOS is integrating a monthly cap on the 7% platform fee.
-
-Under the planned model, once the cap is reached, the 7% platform fee stops for the remainder of that monthly period. Stripe processing fees and the customer-facing $2.50 booking fee continue.
-
-The cap amount, launch date and detailed rules have not yet been confirmed. This is a planned change, not a claim that the cap is currently active.
 
 ## Features in development
 
